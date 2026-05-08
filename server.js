@@ -59,14 +59,43 @@
 //     console.log("File is created");
 // });
 
-const notes = require('./notes.js');
-var _ = require('lodash');
-var age = notes.age;
-var result = notes.addnumber(age+10 , 5);
-console.log("Age: " + age , result);
+// const notes = require('./notes.js');
+// var _ = require('lodash');
+// var age = notes.age;
+// var result = notes.addnumber(age+10 , 5);
+// console.log("Age: " + age , result);
 
 
-var data = ["person", "person", 1,2,2,1,"name","age","25"];
-var filter = _.uniq(data);
-console.log(filter);
-console.log(_.isString("person"));
+// var data = ["person", "person", 1,2,2,1,"name","age","25"];
+// var filter = _.uniq(data);
+// console.log(filter);
+// console.log(_.isString("person"));
+
+// const jsonString =  '{"name": "John", "age": 30, "city": "New York"}';
+// const jsonObject = JSON.parse(jsonString);
+// console.log(jsonObject.name);
+
+// const objectToConvert = {
+//     name: "John",
+//     age: 30,
+//     city: "New York"
+// };
+// const json = JSON.stringify(objectToConvert);
+// console.log(json);
+
+// console.log(typeof json );
+
+// const express = require('express');
+// const app = express();
+
+// app.get('/', function(req, res){
+//     res.send("Hello World!");
+// });
+
+// app.get('/about', function(req, res){
+//     res.send("This is the about page.");
+// });
+
+// app.listen(3000 , function(){
+//     console.log("Server is running on port 3000...");
+// });
